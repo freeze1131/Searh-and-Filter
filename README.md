@@ -20,7 +20,8 @@ This multiplatform app focuses on filtering and searching results in a form with
  ![image](https://github.com/freeze1131/Searh-and-Filter/assets/84195122/cfc6b2d8-8480-453a-8b55-5fff537daabe) ![image](https://github.com/freeze1131/Searh-and-Filter/assets/84195122/450ca032-7a2e-4da1-946f-a07ba168e961)![image](https://github.com/freeze1131/Searh-and-Filter/assets/84195122/c28f914a-30a9-4121-8f80-1d49a706799b)
 
 ### Mac 
-![image](https://github.com/freeze1131/Searh-and-Filter/assets/84195122/673dc4d2-2bfb-46ad-a184-b05887fc1449) ![image](https://github.com/freeze1131/Searh-and-Filter/assets/84195122/22a9f5bd-5a32-41f1-9438-5b894cc66c1f) ![image](https://github.com/freeze1131/Searh-and-Filter/assets/84195122/5a8f25af-35b6-41ec-a7a2-66d3e8816e55)
+![image](https://github.com/freeze1131/Searh-and-Filter/assets/84195122/673dc4d2-2bfb-46ad-a184-b05887fc1449) ![image](https://github.com/freeze1131/Searh-and-Filter/assets/84195122/22a9f5bd-5a32-41f1-9438-5b894cc66c1f) ![image]![image](https://github.com/freeze1131/Searh-and-Filter/assets/84195122/3c97f7d9-d089-406e-bce1-32d9a4acc1b2)
+
 
 
 
