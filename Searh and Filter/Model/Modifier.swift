@@ -1,9 +1,3 @@
-//
-//  Modifier.swift
-//  Searh and Filter
-//
-//  Created by Ahmet Ozen on 7.02.2024.
-//
 
 import Foundation
 
