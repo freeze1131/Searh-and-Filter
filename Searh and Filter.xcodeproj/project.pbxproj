@@ -18,6 +18,8 @@
 		94B712AF2B739F59005E252A /* HotkeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712AE2B739F59005E252A /* HotkeyView.swift */; };
 		94B712B12B73A162005E252A /* HotkeySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712B02B73A162005E252A /* HotkeySectionView.swift */; };
 		94B712B32B73A526005E252A /* HotkeyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712B22B73A526005E252A /* HotkeyRow.swift */; };
+		94B712B52B73AF53005E252A /* KeySymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712B42B73AF53005E252A /* KeySymbolView.swift */; };
+		94B712B72B73B124005E252A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712B62B73B124005E252A /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		94B712AE2B739F59005E252A /* HotkeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyView.swift; sourceTree = "<group>"; };
 		94B712B02B73A162005E252A /* HotkeySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeySectionView.swift; sourceTree = "<group>"; };
 		94B712B22B73A526005E252A /* HotkeyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyRow.swift; sourceTree = "<group>"; };
+		94B712B42B73AF53005E252A /* KeySymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySymbolView.swift; sourceTree = "<group>"; };
+		94B712B62B73B124005E252A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 				94B712AE2B739F59005E252A /* HotkeyView.swift */,
 				94B712B02B73A162005E252A /* HotkeySectionView.swift */,
 				94B712B22B73A526005E252A /* HotkeyRow.swift */,
+				94B712B42B73AF53005E252A /* KeySymbolView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 		94B712A42B7398C3005E252A /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				94B712B62B73B124005E252A /* Theme.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -194,10 +200,12 @@
 				94B712A82B739965005E252A /* Modifier.swift in Sources */,
 				94B712962B739848005E252A /* ContentView.swift in Sources */,
 				94B712942B739848005E252A /* Searh_and_FilterApp.swift in Sources */,
+				94B712B72B73B124005E252A /* Theme.swift in Sources */,
 				94B712B32B73A526005E252A /* HotkeyRow.swift in Sources */,
 				94B712AA2B739AFE005E252A /* CategoryModel.swift in Sources */,
 				94B712AD2B739B6F005E252A /* CategoryViewModel.swift in Sources */,
 				94B712B12B73A162005E252A /* HotkeySectionView.swift in Sources */,
+				94B712B52B73AF53005E252A /* KeySymbolView.swift in Sources */,
 				94B712A62B7398D9005E252A /* Hotkey Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
