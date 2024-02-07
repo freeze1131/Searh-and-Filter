@@ -4,9 +4,11 @@
 This multiplatform app focuses on filtering and searching results in a form with some sections. 
 
 
--It supports iOS, iPad and Mac. 
+- It supports iOS, iPad and Mac. 
 
--MVVM design pattern is used in this project.
+- MVVM design pattern is used in this project.
+
+- Uses different themes and designs according to the OS.
 
 
 
