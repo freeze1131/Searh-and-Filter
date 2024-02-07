@@ -15,6 +15,9 @@
 		94B712A82B739965005E252A /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712A72B739965005E252A /* Modifier.swift */; };
 		94B712AA2B739AFE005E252A /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712A92B739AFE005E252A /* CategoryModel.swift */; };
 		94B712AD2B739B6F005E252A /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712AC2B739B6F005E252A /* CategoryViewModel.swift */; };
+		94B712AF2B739F59005E252A /* HotkeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712AE2B739F59005E252A /* HotkeyView.swift */; };
+		94B712B12B73A162005E252A /* HotkeySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712B02B73A162005E252A /* HotkeySectionView.swift */; };
+		94B712B32B73A526005E252A /* HotkeyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712B22B73A526005E252A /* HotkeyRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		94B712A72B739965005E252A /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 		94B712A92B739AFE005E252A /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		94B712AC2B739B6F005E252A /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		94B712AE2B739F59005E252A /* HotkeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyView.swift; sourceTree = "<group>"; };
+		94B712B02B73A162005E252A /* HotkeySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeySectionView.swift; sourceTree = "<group>"; };
+		94B712B22B73A526005E252A /* HotkeyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +69,9 @@
 				94B712A12B739899005E252A /* Model */,
 				94B712A22B7398A3005E252A /* View */,
 				94B712AB2B739B4C005E252A /* ViewModel */,
+				94B712972B739848005E252A /* Assets.xcassets */,
 				94B712932B739848005E252A /* Searh_and_FilterApp.swift */,
 				94B712952B739848005E252A /* ContentView.swift */,
-				94B712972B739848005E252A /* Assets.xcassets */,
 				94B712992B739848005E252A /* Preview Content */,
 			);
 			path = "Searh and Filter";
@@ -92,6 +98,9 @@
 		94B712A22B7398A3005E252A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				94B712AE2B739F59005E252A /* HotkeyView.swift */,
+				94B712B02B73A162005E252A /* HotkeySectionView.swift */,
+				94B712B22B73A526005E252A /* HotkeyRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,11 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B712AF2B739F59005E252A /* HotkeyView.swift in Sources */,
 				94B712A82B739965005E252A /* Modifier.swift in Sources */,
 				94B712962B739848005E252A /* ContentView.swift in Sources */,
 				94B712942B739848005E252A /* Searh_and_FilterApp.swift in Sources */,
+				94B712B32B73A526005E252A /* HotkeyRow.swift in Sources */,
 				94B712AA2B739AFE005E252A /* CategoryModel.swift in Sources */,
 				94B712AD2B739B6F005E252A /* CategoryViewModel.swift in Sources */,
+				94B712B12B73A162005E252A /* HotkeySectionView.swift in Sources */,
 				94B712A62B7398D9005E252A /* Hotkey Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
