@@ -18,7 +18,7 @@ struct Theme {
     static let subtitleColor:Color = .red
     
     
-    func layout(isIpad:Bool) ->AnyLayout {
+  static  func layout(isIpad:Bool) ->AnyLayout {
         isIpad ? AnyLayout(VStackLayout(alignment: .leading)) : AnyLayout(HStackLayout())
     }
     
@@ -39,7 +39,7 @@ struct Theme {
     static let subtitleColor:Color = .red
     
     
-    func layout(isIpad:Bool) ->AnyLayout {
+ static   func layout(isIpad:Bool) ->AnyLayout {
         AnyLayout(HStackLayout())
     }
     

@@ -6,7 +6,7 @@ import SwiftUI
 struct Searh_and_FilterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HotkeyView()
         }
     }
 }

@@ -15,15 +15,25 @@ struct HotkeySectionView: View {
     
     // TODO: Use a Theme
     
-    let sectionHeaderColor: Color = .red
-    let sectionHeaderFont: Font = .headline
-    let fontWeight: Font.Weight = .semibold
+    let sectionHeaderColor: Color = Theme.subtitleColor
+    let sectionHeaderFont: Font = Theme.sectionHeaderFont
+    let fontWeight: Font.Weight = Theme.fontWeight
     
     
     
     // Filter according to "searhQuery"
     var filteredResults: [HotkeyModel] {
-        models
+        if searchQuery.count <= 1 {
+            return models
+        } else {
+            return models
+                .filter {
+                    $0
+                        .text
+                        .lowercased()
+                        .contains(searchQuery.lowercased())
+                }
+        }
     }
     
     
@@ -61,4 +71,5 @@ struct HotkeySectionView: View {
             ),
         ], searchQuery: "")
     }
+    .frame(minWidth: Theme.frameWidth,maxHeight: Theme.frameHeight)
 }
