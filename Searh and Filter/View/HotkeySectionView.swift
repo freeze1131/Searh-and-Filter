@@ -33,7 +33,7 @@ struct HotkeySectionView: View {
             Section {
                 ForEach(filteredResults) {item in
                 // TODO: Hotkey Row
-                    HotkeyRow(icon: item.modifiers[0], desc: item.text)
+                    
                 }
             } header: {
                 Text(categoryName)

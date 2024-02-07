@@ -9,18 +9,45 @@ import SwiftUI
 
 struct HotkeyRow: View {
     
-    let icon: Modifier
-    let desc: String
+    let hotKeyModel : HotkeyModel
+    let searchQuery: String
+    
+      
+    let font:Font = .body
+    let fontSecondary: Font  = .headline
+    let fontWeight: Font.Weight = .regular
+    
+    
+    var charFound: Bool {
+        searchQuery.count == 1 && hotKeyModel.character.lowercased() == searchQuery.lowercased()
+    }
+    
     
     var body: some View {
-        HStack(spacing:15){
-            Text(icon.rawValue)
-            Text(desc.capitalized)
+        VStack(alignment:.leading) { // TODO: Apact for Mac and iPad
+            HStack {
+                if charFound {
+                    Text("🔵")
+                        .font(font)
+                    
+                }
+                Text(hotKeyModel.description)
+                    .font(font)
+                    .fontWeight(.semibold)
+            }
+            Text(hotKeyModel.text.capitalized)
+                .foregroundStyle(.secondary)
+                .font(fontSecondary)
+            
         }
-        
+        .foregroundStyle(charFound ? .blue : .black)
     }
 }
 
+
 #Preview {
-    HotkeyRow(icon: .control, desc: "SDSDAD")
+    VStack{
+        HotkeyRow(hotKeyModel: HotkeyModel(modifiers: [.command,.option], character: "b", text: "ASDASD"), searchQuery: "")
+        HotkeyRow(hotKeyModel: HotkeyModel(modifiers: [.command,.option], character: "b", text: "ASDASD"), searchQuery: "r")
+    }
 }
