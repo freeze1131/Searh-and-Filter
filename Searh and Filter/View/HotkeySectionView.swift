@@ -33,7 +33,7 @@ struct HotkeySectionView: View {
             Section {
                 ForEach(filteredResults) {item in
                 // TODO: Hotkey Row
-                    
+                    HotkeyRow(hotKeyModel: item, searchQuery: searchQuery)
                 }
             } header: {
                 Text(categoryName)

@@ -17,7 +17,7 @@ struct HotkeyView: View {
             Form{
                 // Sections for each category
                 List(viewModel.hotketCategoryModels) { hotKey in
-                    HotkeySectionView(categoryName: hotKey.categoryName, models: hotKey.models, searchQuery: "")
+                    HotkeySectionView(categoryName: hotKey.categoryName, models: hotKey.models, searchQuery: searchQuery)
                     
                 }
             }
