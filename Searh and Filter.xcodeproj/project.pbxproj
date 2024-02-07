@@ -11,6 +11,7 @@
 		94B712962B739848005E252A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712952B739848005E252A /* ContentView.swift */; };
 		94B712982B739848005E252A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B712972B739848005E252A /* Assets.xcassets */; };
 		94B7129B2B739848005E252A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B7129A2B739848005E252A /* Preview Assets.xcassets */; };
+		94B712A62B7398D9005E252A /* Hotkey Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B712A52B7398D9005E252A /* Hotkey Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		94B712952B739848005E252A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		94B712972B739848005E252A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94B7129A2B739848005E252A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94B712A52B7398D9005E252A /* Hotkey Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hotkey Model.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,9 @@
 		94B712922B739848005E252A /* Searh and Filter */ = {
 			isa = PBXGroup;
 			children = (
+				94B712A42B7398C3005E252A /* Settings */,
+				94B712A22B7398A3005E252A /* View */,
+				94B712A12B739899005E252A /* Model */,
 				94B712932B739848005E252A /* Searh_and_FilterApp.swift */,
 				94B712952B739848005E252A /* ContentView.swift */,
 				94B712972B739848005E252A /* Assets.xcassets */,
@@ -65,6 +70,28 @@
 				94B7129A2B739848005E252A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94B712A12B739899005E252A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94B712A52B7398D9005E252A /* Hotkey Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94B712A22B7398A3005E252A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94B712A42B7398C3005E252A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			files = (
 				94B712962B739848005E252A /* ContentView.swift in Sources */,
 				94B712942B739848005E252A /* Searh_and_FilterApp.swift in Sources */,
+				94B712A62B7398D9005E252A /* Hotkey Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
